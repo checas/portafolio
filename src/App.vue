@@ -1,28 +1,30 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+div
+  cv-header
+  cv-hero
+  cv-proyectos
+  cv-curriculum
+  cv-footer
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CvHeader from './components/CvHeader.vue'
+import CvHero from './components/CvHero.vue'
+import CvProyectos from './components/CvProyectos.vue'
+import CvCurriculum from './components/CvCurriculum.vue'
+import CvFooter from './components/CvFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CvHeader,
+    CvHero,
+    CvProyectos,
+    CvCurriculum,
+    CvFooter
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
