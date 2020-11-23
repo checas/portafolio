@@ -68,7 +68,7 @@ export default {
                     componentes: '#HTML, #Boostrap',
                     github: 'https://github.com/checas/Curso-Boostrap',
                     web: 'https://checas.github.io/Curso-Boostrap/',
-                    imagen: '/img/boostrap.95432cc9.png'
+                    imagen: '/img/boostrap.png'
                 },
                 {
                     titulo: 'Diseño de banner',
@@ -77,7 +77,7 @@ export default {
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/ejercicio-css-grid',
                     web: 'https://checas.github.io/ejercicio-css-grid/',
-                    imagen: '/img/banner.48e5d339.png'
+                    imagen: '/img/banner.png'
                 },
                 {
                     titulo: 'Maquetación en HTML y CSS',
@@ -86,7 +86,7 @@ export default {
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/curso-practico-html-y-css',
                     web: 'https://checas.github.io/curso-practico-html-y-css/',
-                    imagen: '/img/html_css_practico.f9f6cafa.png'
+                    imagen: '/img/html_css_practico.png'
                 },
                 {
                     titulo: 'Diseño de página web de videos',
@@ -94,7 +94,8 @@ export default {
                     descripcion: 'Uso de JQuerry para el manejo de una api de peliculas y CSS grid para el diseño',
                     componentes: '#HTML, #CSS, #JQuerry',
                     github: 'https://github.com/checas/cursos-jquerry',
-                    web: 'https://checas.github.io/cursos-jquerry/'
+                    web: 'https://checas.github.io/cursos-jquerry/',
+                    imagen: '/img/pagina_videos.png'
                 },
                 {
                     titulo: 'Juego de memoria',
@@ -102,7 +103,8 @@ export default {
                     descripcion: 'Uso de JS para generar las secuencias y obtener las respuestas por parte del usuario',
                     componentes: '#HTML, #CSS, #JavaScript',
                     github: 'https://github.com/checas/ejercicio-js-basico',
-                    web: 'https://checas.github.io/ejercicio-js-basico/'
+                    web: 'https://checas.github.io/ejercicio-js-basico/',
+                    imagen: '/img/juego_memoria.png'
                 },
                 {
                     titulo: 'Maquetado web',
@@ -110,7 +112,8 @@ export default {
                     descripcion: 'Uso de HTML y CSS para el diseño de un blog',
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/ejercicio-maquetado',
-                    web: 'https://checas.github.io/ejercicio-maquetado/'
+                    web: 'https://checas.github.io/ejercicio-maquetado/',
+                    imagen: '/img/maquetado_blog.png',
                 },
                 {
                     titulo: 'Diseño de página sobre viedo juegos',
@@ -118,7 +121,8 @@ export default {
                     descripcion: 'Uso de PUG y SASS para realizar el diseño',
                     componentes: '#PUG, #SASS',
                     github: 'https://github.com/checas/ejercicio-preprocesadores',
-                    web: 'https://checas.github.io/ejercicio-preprocesadores/'
+                    web: 'https://checas.github.io/ejercicio-preprocesadores/',
+                    imagen: '/img/blog_juegos.png'
                 },
                 {
                     titulo: 'Maquetación web',
@@ -126,7 +130,8 @@ export default {
                     descripcion: 'Uso de HTML y CSS para realizar una página responsive',
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/ejercicio-responsive-design',
-                    web: 'https://checas.github.io/ejercicio-responsive-design/'
+                    web: 'https://checas.github.io/ejercicio-responsive-design/',
+                    imagen: '/img/maquetado_portafolio.png'
                 },
                 {
                     titulo: 'Single page aplication',
@@ -134,7 +139,8 @@ export default {
                     descripcion: 'Uso de JavaScript para realizar una single page aplication, y uso de API',
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/ejercicio-single-page-js',
-                    web: 'https://checas.github.io/ejercicio-single-page-js/'
+                    web: 'https://checas.github.io/ejercicio-single-page-js/',
+                    imagen: '/img/single_page_js.png'
                 },
                 {
                     titulo: 'Single page aplication',
@@ -142,7 +148,8 @@ export default {
                     descripcion: 'Uso de Vue.js para generar una single page, generación de modulos, uso de api, vue route y tailwind',
                     componentes: '#HTML, #Vue.js, #Tailwind',
                     github: 'https://github.com/checas/platziExchange',
-                    web: 'https://platziechange.netlify.app/'
+                    web: 'https://platziechange.netlify.app/',
+                    imagen: '/img/vue_crypto.png'
                 },
                 {
                     titulo: 'Single page aplication',
@@ -150,10 +157,10 @@ export default {
                     descripcion: 'Uso de Vue.js para generar una single page, utilizando una variante de la api de Spotify para buscar y reporducir música. Uso de vue router y i18n',
                     componentes: '#PUG, #Bulma, #Vue.js',
                     github: 'https://github.com/checas/platzi-music',
-                    web: 'https://platzi-music.netlify.app/'
+                    web: 'https://platzi-music.netlify.app/',
+                    imagen: '/img/vue_music.png'
                 },
             ],
-
         }
     },
     methods: {

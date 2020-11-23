@@ -45,25 +45,32 @@ export default {
                     titulo: 'Web-app para facturación',
                     subtitulo: 'Desarrollo de una web-app',
                     descripcion: 'Esta es una versión actualizada de un proyecto anterior. Se tomo como base el sistema de facturación para agua potable, pero se actualizaron las tecnologías con las que se desarrollo',
-                    componentes: '#Laravel, #Vue, #MySQL'
+                    componentes: '#Laravel, #Vue, #MySQL',
+                    github: 'https://github.com/diegocheca/laravue',
+                    imagen: '/img/sistema_nuevo.png'
                 },
                 {
                     titulo: 'Página web publicitaria',
                     subtitulo: 'Diseño de un página web para la web-app de facturación',
                     descripcion: 'Desarrollo de un página web estatica para la promoción del sistema de facturación',
-                    componentes: '#HTML, #CSS, #Boostrap, #JavaScript'
+                    componentes: '#HTML, #CSS, #Boostrap, #JavaScript',
+                    github: 'https://github.com/checas/AquaPage',
+                    web: 'https://checas.github.io/AquaPage/',
+                    imagen: '/img/pagina_agua.png'
                 },
                 {
                     titulo: 'Aplicación para relevamiento de medidores',
                     subtitulo: 'Desarrollo de una app para android',
                     descripcion: 'La aplicación permite realizar el relevamiento de los medidores de agua potable de cada usuario con servicio. Esta app se conecta con el sistema en las oficinas para volcar los datos en la base de datos del sistema, como así también recivir a principio de mes, la nueva lista para realizar las mediciones',
-                    componentes: '#Android, #Java'
+                    componentes: '#Android, #Java',
+                    imagen: '/img/app_villaEliza.png'
                 },
                 {
                     titulo: 'Web app para facturación de servicio de agua potable',
                     subtitulo: 'Desarrollo de un sistema de facturación',
                     descripcion: 'Sistema para facturación, manejo de clientes, manejo de materiales, manejo de ordenes de trabajo, generación de facturas, envío de mails y generación de informes',
-                    componentes: '#PHP, #Codeigniter, #Angular, #Boostrap, #MySQL'
+                    componentes: '#PHP, #Codeigniter, #Angular, #Boostrap, #MySQL',
+                    imagen: '/img/sistema_viejo.jpg'
                 },
             ],
 
