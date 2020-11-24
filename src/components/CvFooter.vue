@@ -25,4 +25,7 @@ footer.footer
     h1.title.has-text-centered.is-5 💻 by Sergio Checcarelli
 </template>
 <style scoped>
+a {
+    color: #363636;
+}
 </style>

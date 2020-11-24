@@ -11,16 +11,9 @@ nav.navbar.has-shadow.is-spaced(role="navigation" aria-label="main navigation")
 
     .navbar-menu#navbarBasicExample
         .navbar-end
-            .navbar-item.has-dropdown.is-hoverable
-                a.navbar-link Proyectos
-                .navbar-dropdown
-                    a.navbar-item Trabajos freelance
-                    hr.navbar-divider
-                    a.navbar-item Propios
-                    hr.navbar-divider
-                    a.navbar-item De cursos
-            a.navbar-item Curriculum
-            a.navbar-item Contacto
+            a.navbar-item(href="#proyectos") Proyectos
+            a.navbar-item(href="#curriculum") Curriculum
+            a.navbar-item(href="#footer") Contacto
 </template>
 
 <style scoped>

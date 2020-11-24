@@ -5,13 +5,13 @@
         .tabs
             ul
                 li(:class="antecedentesClass")
-                    a.has-text-grey-light(@click="antecedentesSelect") Antecedentes laborales
+                    a.has-text-white-ter(@click="antecedentesSelect") Antecedentes laborales
                 li(:class="habilidadesClass")
-                    a.has-text-grey-light(@click="habilidadesSelect") Habilidades
+                    a.has-text-white-ter(@click="habilidadesSelect") Habilidades
                 li(:class="estudiosClass")
-                    a.has-text-grey-light(@click="estudiosSelect") Estudios
+                    a.has-text-white-ter(@click="estudiosSelect") Estudios
                 li(:class="cursosClass")
-                    a.has-text-grey-light(@click="cursosSelect") Cursos
+                    a.has-text-white-ter(@click="cursosSelect") Cursos
         cv-antecedentes(v-show="showAntecedentes")
         cv-habilidades(v-show="showHabilidades")
         cv-estudios(v-show="showEstudios")

@@ -2,9 +2,9 @@
 div
   cv-header
   cv-hero
-  cv-proyectos
-  cv-curriculum
-  cv-footer
+  cv-proyectos#proyectos
+  cv-curriculum#curriculum
+  cv-footer#footer
 </template>
 
 <script>
