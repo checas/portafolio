@@ -63,7 +63,8 @@ export default {
                     subtitulo: 'Desarrollo de una app para android',
                     descripcion: 'La aplicación permite realizar el relevamiento de los medidores de agua potable de cada usuario con servicio. Esta app se conecta con el sistema en las oficinas para volcar los datos en la base de datos del sistema, como así también recivir a principio de mes, la nueva lista para realizar las mediciones',
                     componentes: '#Android, #Java',
-                    imagen: '/img/app_villaEliza.png'
+                    imagen: '/img/app_villaEliza.png',
+                    github: 'https://github.com/checas/VillaElisa_Mediciones',
                 },
                 {
                     titulo: 'Web app para facturación de servicio de agua potable',
