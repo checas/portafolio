@@ -64,4 +64,9 @@ export default {
     border-color: red;
     color: red;
 }
+@media screen and (max-width: 767px) {
+    h1.title {
+        text-align: center;
+    }
+}
 </style>

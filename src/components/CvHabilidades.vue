@@ -78,6 +78,17 @@
             h1.has-text-centered.pb-2.has-text-white-bis Fotografía digital
             progress.progress.is-warning(value="50" max="100")
 </template>
-<style>
-
+<style scoped>
+@media screen and (max-width: 767px) {
+    .section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
 </style>

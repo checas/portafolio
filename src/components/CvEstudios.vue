@@ -15,3 +15,20 @@
             h2.title.is-4.has-text-grey-lighter UNSJ
             p.has-text-white-ter 03/2008 al 03/2018
 </template>
+<style scoped>
+@media screen and (max-width: 767px) {
+    .section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    } 
+}
+@media screen and (max-width: 480px) {
+    .section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h1.has-text-white-bis.title.is-4, h2.title.is-4.has-text-grey-lighter {
+        margin-bottom: 5px;
+    }
+}
+</style>

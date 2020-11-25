@@ -31,11 +31,16 @@ section.hero.is-medium.is-spaced.is-bold.tiene-fondo
     .column.ml-6.is-one-third{
         display: flex;
         justify-content: center;
+        margin-left: 0 !important;
     }
     .column {
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
+        margin-right: 0 !important;
+    }
+    p {
+        -webkit-text-stroke: 0.4px black;
     }
 }
 @media screen and (max-width: 480px) {
@@ -49,6 +54,9 @@ section.hero.is-medium.is-spaced.is-bold.tiene-fondo
         padding-left: 0px;
         padding-right: 0px;
         margin-right: 0 !important;
+    }
+    p {
+        -webkit-text-stroke: 0.4px black;
     }
 }
 </style>

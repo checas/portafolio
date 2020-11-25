@@ -90,4 +90,9 @@ export default {
     border-color: red;
     color: red !important;
 }
+@media screen and (max-width: 767px) {
+    h1.title.has-text-white-bis {
+        text-align: center;
+    }
+}
 </style>

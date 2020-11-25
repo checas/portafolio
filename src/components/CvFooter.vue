@@ -28,4 +28,24 @@ footer.footer
 a {
     color: #363636;
 }
+@media screen and (max-width: 767px) {
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .columns {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .column {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
 </style>

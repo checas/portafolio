@@ -7,7 +7,7 @@
             h2.title.is-4.has-text-white-ter Freelance
             p.has-text-white-ter 07/2020 a la actualidad
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Diseño UX
                 li Desarrollo de componentes en Vue
@@ -22,7 +22,7 @@
             h2.title.is-4.has-text-white-ter Sinec S.A.
             p.has-text-white-ter 03/2020 al 07/2020
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Planificación, gestión, supervición y coordinación de tareas en la unindad de negocio de YPF Santa Cruz Oeste y Este
                 li Ensayos de equipos de protección eléctrica
@@ -38,7 +38,7 @@
             h2.title.is-4.has-text-white-ter Sinec S.A.
             p.has-text-white-ter 08/2020 al 03/2020
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Ensayos de equipos de protección eléctrica
                 li Ensayos de PAT
@@ -55,7 +55,7 @@
             h2.title.is-4.has-text-white-ter Freelance
             p.has-text-white-ter 03/2017 al 10/2017
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Diseño de páginas web
                 li Desarrollo de aplicaciones Android
@@ -73,7 +73,7 @@
             h2.title.is-4.has-text-white-ter iFix
             p.has-text-white-ter 02/2017 al 03/2017
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Reparación de teléfonos celulares
                 li Reparación de tablets
@@ -86,7 +86,7 @@
             h2.title.is-4.has-text-white-ter EPRE
             p.has-text-white-ter 07/2015 al 08/2016
         .column
-            h1.title.is-4
+            h1.title.is-4#titulo_falso
             ul.has-text-grey-lighter
                 li Generación y cierre de expedientes
                 li Relevamiento de obras en la vía pública
@@ -95,5 +95,23 @@
 <style scoped>
 li {
     list-style-type: circle;
+}
+@media screen and (max-width: 767px) {
+    .section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #titulo_falso {
+        margin-bottom: 0 !important;
+    } 
+}
+@media screen and (max-width: 480px) {
+    .section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h1.has-text-white-bis.title.is-4, h2.title.is-4.has-text-white-ter {
+        margin-bottom: 5px;
+    }
 }
 </style>
