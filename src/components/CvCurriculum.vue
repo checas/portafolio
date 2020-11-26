@@ -12,10 +12,18 @@
                     a.has-text-white-ter(@click="estudiosSelect") Estudios
                 li(:class="cursosClass")
                     a.has-text-white-ter(@click="cursosSelect") Cursos
-        cv-antecedentes(v-show="showAntecedentes")
-        cv-habilidades(v-show="showHabilidades")
-        cv-estudios(v-show="showEstudios")
-        cv-cursos(v-show="showCursos")
+        transition(name="fade")
+            div(v-show="showAntecedentes")
+                cv-antecedentes
+        transition(name="fade")
+            div(v-show="showHabilidades")
+                cv-habilidades
+        transition(name="fade")
+            div(v-show="showEstudios")
+                cv-estudios
+        transition(name="fade")
+            div(v-show="showCursos")
+                cv-cursos
 </template>
 <script>
 
@@ -89,6 +97,12 @@ export default {
 .tabs li.is-active a {
     border-color: red;
     color: red !important;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .2s
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0
 }
 @media screen and (max-width: 767px) {
     h1.title.has-text-white-bis {

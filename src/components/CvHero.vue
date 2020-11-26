@@ -1,5 +1,5 @@
 <template lang="pug">
-section.hero.is-medium.is-spaced.is-bold.tiene-fondo
+section.hero.is-medium.is-spaced.is-bold.is-dark.tiene-fondo
     .blured-background
     .hero-body
         .columns

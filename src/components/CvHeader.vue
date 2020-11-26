@@ -5,9 +5,9 @@ nav.navbar.has-shadow.is-spaced(role="navigation" aria-label="main navigation")
             img.image.is-128x128(src="../assets/svg/coding.svg")
             h1.title Sergio Checcarelli
         a.navbar-burger.burger.mr-5(:class="showMenu" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" @click="cambiar")
-            span(aria-hidden="true")
-            span(aria-hidden="true")
-            span(aria-hidden="true")
+                span(aria-hidden="true")
+                span(aria-hidden="true")
+                span(aria-hidden="true")
 
     .navbar-menu(:class="showMenu")
         .navbar-end

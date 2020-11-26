@@ -9,9 +9,13 @@
             //-     a(@click="propiosSelect") Propios
             li(:class="cursosClass")
                 a(@click="cursosSelect") De cursos
-    cv-freelance(v-show="showFreelance")
+    transition(name="fade")
+        div(v-show="showFreelance")
+            cv-freelance
     cv-propios(v-show="showPropios")
-    cv-de-cursos(v-show="showDeCursos")
+    transition(name="fade")
+        div(v-show="showDeCursos")
+            cv-de-cursos
 </template>
 
 <script>
@@ -63,6 +67,12 @@ export default {
 .tabs li.is-active a {
     border-color: red;
     color: red;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .2s
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0
 }
 @media screen and (max-width: 767px) {
     h1.title {

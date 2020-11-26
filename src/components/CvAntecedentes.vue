@@ -3,7 +3,7 @@
     //- desarrollador front end
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Desarrollador Front end
+            h1.has-text-white-bis.title.is-4 Desarrollador Front End
             h2.title.is-4.has-text-white-ter Freelance
             p.has-text-white-ter 07/2020 a la actualidad
         .column
