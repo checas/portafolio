@@ -3,12 +3,12 @@
     //- desarrollador front end
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Desarrollador Front End
-            h2.title.is-4.has-text-white-ter Freelance
-            p.has-text-white-ter 07/2020 a la actualidad
+            h1.title.is-4 Desarrollador Front End
+            h2.title.is-4 Freelance
+            p 07/2020 a la actualidad
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Diseño UX
                 li Desarrollo de componentes en Vue
                 li Trabajo en diseño
@@ -18,12 +18,12 @@
             ul
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Representante técnico
-            h2.title.is-4.has-text-white-ter Sinec S.A.
-            p.has-text-white-ter 03/2020 al 07/2020
+            h1.title.is-4 Representante técnico
+            h2.title.is-4 Sinec S.A.
+            p 03/2020 al 07/2020
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Planificación, gestión, supervición y coordinación de tareas en la unindad de negocio de YPF Santa Cruz Oeste y Este
                 li Ensayos de equipos de protección eléctrica
                 li Realización y revisión de informes técnicos
@@ -34,12 +34,12 @@
             ul
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Ingeniero de ensayos y mediciones
-            h2.title.is-4.has-text-white-ter Sinec S.A.
-            p.has-text-white-ter 08/2020 al 03/2020
+            h1.title.is-4 Ingeniero de ensayos y mediciones
+            h2.title.is-4 Sinec S.A.
+            p 08/2020 al 03/2020
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Ensayos de equipos de protección eléctrica
                 li Ensayos de PAT
                 li Ensayos de transformadores
@@ -51,12 +51,12 @@
             ul
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Programador web y mobile
-            h2.title.is-4.has-text-white-ter Freelance
-            p.has-text-white-ter 03/2017 al 10/2017
+            h1.title.is-4 Programador web y mobile
+            h2.title.is-4 Freelance
+            p 03/2017 al 10/2017
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Diseño de páginas web
                 li Desarrollo de aplicaciones Android
                 li Desarrollo de una web app para facturación de servicio de agua potable
@@ -69,12 +69,12 @@
             ul
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Técnico en reparación celulares
-            h2.title.is-4.has-text-white-ter iFix
-            p.has-text-white-ter 02/2017 al 03/2017
+            h1.title.is-4 Técnico en reparación celulares
+            h2.title.is-4 iFix
+            p 02/2017 al 03/2017
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Reparación de teléfonos celulares
                 li Reparación de tablets
     //- Perito tecnico
@@ -82,12 +82,12 @@
             ul
     .columns
         .column
-            h1.has-text-white-bis.title.is-4 Perito técnio (pasante)
-            h2.title.is-4.has-text-white-ter EPRE
-            p.has-text-white-ter 07/2015 al 08/2016
+            h1.title.is-4 Perito técnio (pasante)
+            h2.title.is-4 EPRE
+            p 07/2015 al 08/2016
         .column
             h1.title.is-4#titulo_falso
-            ul.has-text-grey-lighter
+            ul
                 li Generación y cierre de expedientes
                 li Relevamiento de obras en la vía pública
                 li Generación de notas ante anomalías o infracciones en la red de distribución en la vía pública
@@ -95,6 +95,15 @@
 <style scoped>
 li {
     list-style-type: circle;
+}
+h1, h2 {
+    color:#ECE5ED;
+}
+li, p {
+    color: #CCAEE0;
+}
+.tabs, ul {
+    border-bottom-color: #B30189;
 }
 @media screen and (max-width: 767px) {
     .section {
@@ -110,7 +119,7 @@ li {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    h1.has-text-white-bis.title.is-4, h2.title.is-4.has-text-white-ter {
+    h1.title.is-4, h2.title.is-4 {
         margin-bottom: 5px;
     }
 }

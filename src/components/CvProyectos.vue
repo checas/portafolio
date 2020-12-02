@@ -1,5 +1,5 @@
 <template lang="pug">
-.section
+.section.principal
     h1.title Proyectos
     .tabs
         ul
@@ -64,9 +64,22 @@ export default {
 }
 </script>
 <style scoped>
+.principal{
+    background-color: #2D1062
+}
+h1 {
+    color: #ECE5ED;
+}
+li a {
+    color: #CCAEE0;
+    border-color: #B30189;
+}
+.tabs ul {
+    border-color: #B30189;
+}
 .tabs li.is-active a {
-    border-color: red;
-    color: red;
+    border-color: #ECE5ED;
+    color: #ECE5ED;
 }
 .fade-enter-active, .fade-leave-active {
     transition: opacity .2s

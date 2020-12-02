@@ -2,83 +2,86 @@
 .section
     .columns
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis HTML
+            h1.has-text-centered.pb-2 HTML
             progress.progress.is-success(value="90" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis CSS
+            h1.has-text-centered.pb-2 CSS
             progress.progress.is-success(value="80" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis JavaScript
+            h1.has-text-centered.pb-2 JavaScript
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis VUE
+            h1.has-text-centered.pb-2 VUE
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Boostrap
-            progress.progress.is-success(value="80" max="100")
-    .columns
-        .column
-            h1.has-text-centered.pb-2.has-text-white-bis Bulma
-            progress.progress.is-success(value="75" max="100")
-        .column
-            h1.has-text-centered.pb-2.has-text-white-bis PUG
-            progress.progress.is-success(value="75" max="100")
-        .column
-            h1.has-text-centered.pb-2.has-text-white-bis SASS
-            progress.progress.is-warning(value="50" max="100")
-        .column
-            h1.has-text-centered.pb-2.has-text-white-bis Git
-            progress.progress.is-success(value="80" max="100")
-        .column
-            h1.has-text-centered.pb-2.has-text-white-bis GitHub
+            h1.has-text-centered.pb-2 Boostrap
             progress.progress.is-success(value="80" max="100")
     .columns
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis PHP
+            h1.has-text-centered.pb-2 Bulma
+            progress.progress.is-success(value="75" max="100")
+        .column
+            h1.has-text-centered.pb-2 PUG
+            progress.progress.is-success(value="75" max="100")
+        .column
+            h1.has-text-centered.pb-2 SASS
             progress.progress.is-warning(value="50" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Laravel
+            h1.has-text-centered.pb-2 Git
+            progress.progress.is-success(value="80" max="100")
+        .column
+            h1.has-text-centered.pb-2 GitHub
+            progress.progress.is-success(value="80" max="100")
+    .columns
+        .column
+            h1.has-text-centered.pb-2 PHP
+            progress.progress.is-warning(value="50" max="100")
+        .column
+            h1.has-text-centered.pb-2 Laravel
             progress.progress.is-danger(value="30" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Java
+            h1.has-text-centered.pb-2 Java
             progress.progress.is-warning(value="50" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis MySQL
+            h1.has-text-centered.pb-2 MySQL
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis C++
+            h1.has-text-centered.pb-2 C++
             progress.progress.is-success(value="80" max="100")
     .columns
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis C#
+            h1.has-text-centered.pb-2 C#
             progress.progress.is-success(value="80" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Basic
+            h1.has-text-centered.pb-2 Basic
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis VBA
+            h1.has-text-centered.pb-2 VBA
             progress.progress.is-success(value="80" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Android Studio
+            h1.has-text-centered.pb-2 Android Studio
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Microsoft office
+            h1.has-text-centered.pb-2 Microsoft office
             progress.progress.is-success(value="90" max="100")
     .columns
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis AutoCad
+            h1.has-text-centered.pb-2 AutoCad
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Matlab
+            h1.has-text-centered.pb-2 Matlab
             progress.progress.is-success(value="75" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis SCADA
+            h1.has-text-centered.pb-2 SCADA
             progress.progress.is-warning(value="50" max="100")
         .column
-            h1.has-text-centered.pb-2.has-text-white-bis Fotografía digital
+            h1.has-text-centered.pb-2 Fotografía digital
             progress.progress.is-warning(value="50" max="100")
 </template>
 <style scoped>
+h1 {
+    color: #ECE5ED;
+}
 @media screen and (max-width: 767px) {
     .section {
         padding-top: 15px;

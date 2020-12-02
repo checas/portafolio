@@ -2,8 +2,8 @@
 nav.navbar.has-shadow.is-spaced(role="navigation" aria-label="main navigation")
     .navbar-brand
         a.navbar-item(href="#")
-            img.image.is-128x128(src="../assets/svg/coding.svg")
-            h1.title Sergio Checcarelli
+            //- img.image.is-128x128(src="../assets/svg/coding.svg")
+            h1.title </> Sergio Checcarelli
         a.navbar-burger.burger.mr-5(:class="showMenu" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" @click="cambiar")
                 span(aria-hidden="true")
                 span(aria-hidden="true")
@@ -17,6 +17,22 @@ nav.navbar.has-shadow.is-spaced(role="navigation" aria-label="main navigation")
 </template>
 
 <style scoped>
+nav {
+    background-color: #2D1062;
+}
+h1 {
+    color: #ECE5ED;
+}
+a {
+    color: #CCAEE0;
+}
+.navbar-menu.is-active{
+    background-color: #2D1062;
+}
+.a.navbar-burger.burger.mr-5, span{
+    color: #CCAEE0;
+    background-color: #2D1062;
+}
 .navbar-link:not(.is-arrowless)::after {
     border-color: red;
 }

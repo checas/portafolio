@@ -1,17 +1,17 @@
 <template lang="pug">
 .section
     .container
-        h1.title.has-text-white-bis Curriculum
+        h1.title Curriculum
         .tabs
             ul
                 li(:class="antecedentesClass")
-                    a.has-text-white-ter(@click="antecedentesSelect") Antecedentes laborales
+                    a(@click="antecedentesSelect") Antecedentes laborales
                 li(:class="habilidadesClass")
-                    a.has-text-white-ter(@click="habilidadesSelect") Habilidades
+                    a(@click="habilidadesSelect") Habilidades
                 li(:class="estudiosClass")
-                    a.has-text-white-ter(@click="estudiosSelect") Estudios
+                    a(@click="estudiosSelect") Estudios
                 li(:class="cursosClass")
-                    a.has-text-white-ter(@click="cursosSelect") Cursos
+                    a(@click="cursosSelect") Cursos
         transition(name="fade")
             div(v-show="showAntecedentes")
                 cv-antecedentes
@@ -91,12 +91,27 @@ export default {
 }
 </script>
 <style scoped>
+h1 {
+    color: #ECE5ED;
+}
+li a {
+    color: #CCAEE0;
+}
+.tabs ul {
+    border-color: #B30189;
+}
+.tabs a {
+    border-color: #B30189;
+}
+li, a {
+    border-color: #B30189;
+}
 .section {
-    background-color: #242424;
+    background-color: #0F060B;
 }
 .tabs li.is-active a {
-    border-color: red;
-    color: red !important;
+    border-color: #ECE5ED;
+    color: #ECE5ED !important;
 }
 .fade-enter-active, .fade-leave-active {
     transition: opacity .2s

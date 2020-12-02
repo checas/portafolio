@@ -27,6 +27,14 @@ div
             //- li
             //-     a.pagination-link(aria-label="Goto page 86") 86
 </template>
+<style scoped>
+    a {
+        color: #2D1062;
+        background-color: #ECE5ED;
+        border-color: #4C5AD7;
+        border-radius: 25px;
+    }
+</style>
 <script>
 import CvTarjetas from '../components/CvTarjetas.vue'
 export default {
