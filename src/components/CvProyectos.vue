@@ -4,11 +4,11 @@
     .tabs
         ul
             li(:class="freelanceClass")
-                a(@click="freelanceSelect") Freelance
+                a.title.is-5(@click="freelanceSelect") Freelance
             //- li(:class="propiosClass")
             //-     a(@click="propiosSelect") Propios
             li(:class="cursosClass")
-                a(@click="cursosSelect") De cursos
+                a.title.is-5(@click="cursosSelect") De cursos
     transition(name="fade")
         div(v-show="showFreelance")
             cv-freelance
@@ -77,9 +77,15 @@ li a {
 .tabs ul {
     border-color: #B30189;
 }
+.tabs ul:hover {
+    border-color: #B30189;
+}
 .tabs li.is-active a {
     border-color: #ECE5ED;
     color: #ECE5ED;
+}
+.tabs li a:hover{
+    color:#B30189;
 }
 .fade-enter-active, .fade-leave-active {
     transition: opacity .2s

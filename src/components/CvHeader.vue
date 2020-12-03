@@ -37,7 +37,8 @@ a {
     border-color: red;
 }
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
-    color: red
+    color: #612481;
+    background-color:  #ECE5ED;
 }
 @media screen and (max-width: 767px) {
     

@@ -23,7 +23,7 @@ section.hero.is-medium.is-spaced.is-bold.tiene-fondo
     height: 250px;
 }
 .tiene-fondo {
-        background-image: url('/img/fondo.jpg');
+        background-image: url('/img/fondo2.jpg');
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;

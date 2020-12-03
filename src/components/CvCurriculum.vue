@@ -5,13 +5,13 @@
         .tabs
             ul
                 li(:class="antecedentesClass")
-                    a(@click="antecedentesSelect") Antecedentes laborales
+                    a.title.is-5(@click="antecedentesSelect") Antecedentes laborales
                 li(:class="habilidadesClass")
-                    a(@click="habilidadesSelect") Habilidades
+                    a.title.is-5(@click="habilidadesSelect") Habilidades
                 li(:class="estudiosClass")
-                    a(@click="estudiosSelect") Estudios
+                    a.title.is-5(@click="estudiosSelect") Estudios
                 li(:class="cursosClass")
-                    a(@click="cursosSelect") Cursos
+                    a.title.is-5(@click="cursosSelect") Cursos
         transition(name="fade")
             div(v-show="showAntecedentes")
                 cv-antecedentes
@@ -102,6 +102,9 @@ li a {
 }
 .tabs a {
     border-color: #B30189;
+}
+.tabs li a:hover{
+    color:#B30189;
 }
 li, a {
     border-color: #B30189;
