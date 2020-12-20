@@ -52,14 +52,14 @@ export default {
                 {
                     titulo: 'Web-app para facturación',
                     subtitulo: 'Desarrollo de una web-app',
-                    descripcion: 'Esta es una versión actualizada de un proyecto anterior. Se tomo como base el sistema de facturación para agua potable, pero se actualizaron las tecnologías con las que se desarrollo',
+                    descripcion: 'Esta es una versión actualizada de un proyecto anterior. Se tomó como base el sistema de facturación para agua potable, pero se actualizaron las tecnologías con las que se desarrolló',
                     componentes: '#Laravel, #Vue, #MySQL',
                     github: 'https://github.com/diegocheca/laravue',
                     imagen: '/img/sistema_nuevo.png'
                 },
                 {
                     titulo: 'Página web publicitaria',
-                    subtitulo: 'Diseño de un página web para la web-app de facturación',
+                    subtitulo: 'Diseño de un página web para la presentación del sistema de facturación',
                     descripcion: 'Desarrollo de un página web estatica para la promoción del sistema de facturación',
                     componentes: '#HTML, #CSS, #Boostrap, #JavaScript',
                     github: 'https://github.com/checas/AquaPage',
@@ -69,7 +69,7 @@ export default {
                 {
                     titulo: 'Aplicación para relevamiento de medidores',
                     subtitulo: 'Desarrollo de una app para android',
-                    descripcion: 'La aplicación permite realizar el relevamiento de los medidores de agua potable de cada usuario con servicio. Esta app se conecta con el sistema en las oficinas para volcar los datos en la base de datos del sistema, como así también recivir a principio de mes, la nueva lista para realizar las mediciones',
+                    descripcion: 'La aplicación permite realizar el relevamiento de los medidores de agua potable de cada usuario con servicio. Esta app se conecta mediante wifi para actualizar la base de datos del sistema, como así también, recibir a principio de mes la nueva base de datos para realizar las mediciones',
                     componentes: '#Android, #Java',
                     imagen: '/img/app_villaEliza.png',
                     github: 'https://github.com/checas/VillaElisa_Mediciones',

@@ -70,9 +70,9 @@ export default {
             showAnterior: true,
             proyectos: [
                 {
-                    titulo: 'Diseño de página para convensión',
+                    titulo: 'Diseño de página para convención',
                     subtitulo: 'Diseño utilizando boostrap',
-                    descripcion: 'Esta es una versión actualizada de un proyecto anterior. Se tomo como base el sistema de facturación para agua potable, pero se actualizaron las tecnologías con las que se desarrollo',
+                    descripcion: 'Página para presentación de una convención',
                     componentes: '#HTML, #Boostrap',
                     github: 'https://github.com/checas/Curso-Boostrap',
                     web: 'https://checas.github.io/Curso-Boostrap/',
@@ -144,7 +144,7 @@ export default {
                 {
                     titulo: 'Single page aplication',
                     subtitulo: 'JavaScript',
-                    descripcion: 'Uso de JavaScript para realizar una single page aplication, y uso de API',
+                    descripcion: 'Uso de JavaScript para realizar una single page aplication y uso de API',
                     componentes: '#HTML, #CSS',
                     github: 'https://github.com/checas/ejercicio-single-page-js',
                     web: 'https://checas.github.io/ejercicio-single-page-js/',

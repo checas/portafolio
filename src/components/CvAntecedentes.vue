@@ -11,8 +11,7 @@
             ul
                 li Diseño UX
                 li Desarrollo de componentes en Vue
-                li Trabajo en diseño
-                li etc.
+                li Diseño de páginas web
     //- RT
     .tabs
             ul
@@ -24,11 +23,11 @@
         .column
             h1.title.is-4#titulo_falso
             ul
-                li Planificación, gestión, supervición y coordinación de tareas en la unindad de negocio de YPF Santa Cruz Oeste y Este
-                li Ensayos de equipos de protección eléctrica
+                li Planificación, gestión, supervisión y coordinación de tareas en la unidad de negocio de YPF Santa Cruz Oeste y Este
+                li Ensayos de equipos de protección eléctrica de media y baja tensión
                 li Realización y revisión de informes técnicos
                 li Realización y revisión de planos CAO
-                li Verificación del cumplimiento de protocoles y estándares de la empresa y el cliente
+                li Verificación y aplicación de protocolos y estándares de la empresa y cliente
     //- Ing EyM
     .tabs
             ul
@@ -36,16 +35,17 @@
         .column
             h1.title.is-4 Ingeniero de ensayos y mediciones
             h2.title.is-4 Sinec S.A.
-            p 08/2020 al 03/2020
+            p 10/2017 al 03/2020
         .column
             h1.title.is-4#titulo_falso
             ul
-                li Ensayos de equipos de protección eléctrica
+                li Ensayos de equipos de protección eléctrica de media y baja tensión
                 li Ensayos de PAT
                 li Ensayos de transformadores
                 li Realización de informes técnicos
                 li Realización de planos CAO
                 li Diseño y porgramación de SCADA
+                li Tendido y fusión de fibra optica
     //- Prog freelance
     .tabs
             ul
@@ -82,9 +82,9 @@
             ul
     .columns
         .column
-            h1.title.is-4 Perito técnio (pasante)
+            h1.title.is-4 Perito técnico (pasante)
             h2.title.is-4 EPRE
-            p 07/2015 al 08/2016
+            p 08/2015 al 11/2016
         .column
             h1.title.is-4#titulo_falso
             ul
